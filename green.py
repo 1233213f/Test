@@ -5,10 +5,10 @@ import os
 
 
 def modify():
-    file = open('C:\Users\28590\Desktop\green-master\green-master\zero.md', 'r')
+    file = open('C:\\Users\\28590\\Desktop\\green-master\\green-master\\zero.md', 'r')
     flag = int(file.readline()) == 0
     file.close()
-    file = open('C:\Users\28590\Desktop\green-master\green-master\zero.md', 'w+')
+    file = open('C:\\Users\\28590\\Desktop\\green-master\\green-master\\zero.md', 'w+')
     if flag:
         file.write('1')
     else:
