@@ -5,10 +5,10 @@ import os
 
 
 def modify():
-    file = open('zero.md', 'r')
+    file = open('C:\Users\28590\Desktop\green-master\green-master\zero.md', 'r')
     flag = int(file.readline()) == 0
     file.close()
-    file = open('zero.md', 'w+')
+    file = open('C:\Users\28590\Desktop\green-master\green-master\zero.md', 'w+')
     if flag:
         file.write('1')
     else:
@@ -37,4 +37,4 @@ def daily_commit(start_date, end_date):
 
 
 if __name__ == '__main__':
-    daily_commit(datetime.date(2021, 3, 31), datetime.date(2022, 1, 28))
+    daily_commit(datetime.date(2022, 3, 31), datetime.date(2023, 1, 28))
