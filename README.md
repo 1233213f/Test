@@ -76,3 +76,4 @@ if __name__ == '__main__':
 今天还发现一个现象，修改github上自己对应的邮箱，commit记录也会变化，也就是，如果关联了一个有很多commit记录的邮箱，就会自然地有很多小绿点了吧
 
 > 最后，致敬明知Streak有bug，但仍然坚持Streak的人。
+# Test
